@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>iPhone 15 - Detalhes do Produto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Cabeçalho -->
+  <header class="bg-red-600 text-white p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">🛒 Americanas</h1>
+      <a href="index.html" class="bg-white text-red-600 px-4 py-2 rounded hover:bg-gray-200 font-bold">
+        Voltar para Loja
+      </a>
+    </div>
+  </header>
+
+  <!-- Detalhes do Produto -->
+  <main class="max-w-6xl mx-auto p-6">
+    <div class="grid md:grid-cols-2 gap-8 bg-white p-6 rounded shadow">
+
+      <!-- Imagem (emoji temporário) -->
+      <div class="imagem-produto"><img src="https://a-static.mlcdn.com.br/800x560/apple-iphone-15-128gb-preto-61-48mp-ios-5g/magazineluiza/238035600/716d868f4d404bfb6f8189c688a8c74f.jpg" 
+     alt="iPhone 15" 
+     class="imagem-produto">
+    </div>
+
+      <!-- Informações -->
+      <div>
+        <h2 class="text-3xl font-bold mb-2">iPhone 15</h2>
+        <p class="text-gray-700 mb-4">Tela Super Retina XDR, câmera de 48MP, chip A16 Bionic. Desempenho incrível e visual elegante.</p>
+        <p class="text-gray-500 line-through">R$ 5.999,00</p>
+        <p class="text-3xl font-bold text-green-600 mb-6">R$ 4.799,00</p>
+        <a href="checkout.html">
+  <button class="w-full bg-red-600 text-white py-2 rounded hover:bg-red-700">
+    Comprar
+  </button>
+</a>
+    </div>
+
+    <!-- Outros produtos -->
+    <section class="mt-12">
+      <h3 class="text-2xl font-bold mb-4">Você também pode gostar</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Produto 1 -->
+        <a href="produto-faca.html" class="block bg-white p-4 rounded shadow hover:shadow-md transition">
+          <div class="text-5xl text-center mb-2">🔪</div>
+          <h4 class="text-lg font-bold">Jogo de Facas Tramontina</h4>
+          <p class="text-red-600 font-bold">R$ 119,90</p>
+        </a>
+        <!-- Produto 2 -->
+        <a href="produto-tv.html" class="block bg-white p-4 rounded shadow hover:shadow-md transition">
+          <div class="text-5xl text-center mb-2">📺</div>
+          <h4 class="text-lg font-bold">Smart TV 55"</h4>
+          <p class="text-red-600 font-bold">R$ 2.199,00</p>
+        </a>
+        <!-- Produto 3 -->
+        <a href="produto-notebook.html" class="block bg-white p-4 rounded shadow hover:shadow-md transition">
+          <div class="text-5xl text-center mb-2">💻</div>
+          <h4 class="text-lg font-bold">Notebook Dell</h4>
+          <p class="text-red-600 font-bold">R$ 2.799,00</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
